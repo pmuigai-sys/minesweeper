@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-slate-100 font-sans antialiased;
+}
+
+.glass-card {
+  @apply bg-slate-900/90 backdrop-blur-lg border border-slate-700/60 shadow-glass rounded-2xl;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-kabarak-blue via-kabarak-accent to-kabarak-emerald bg-clip-text text-transparent;
+}
